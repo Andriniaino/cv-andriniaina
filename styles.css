@@ -49,3 +49,14 @@ a {
 a:hover {
     text-decoration: underline;
 }
+.header {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* espace entre l'image et le texte */
+}
+
+.photo-profil {
+    width: 120px;       /* taille de l'image */
+    height: auto;       /* conserve les proportions */
+    border-radius: 10px; /* coins arrondis */
+}
