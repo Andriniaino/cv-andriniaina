@@ -94,7 +94,7 @@ a:hover {
 
 .navbar-brand i {
     font-size: 1.8rem;
-    color: var(--accent-gold);
+    color: #66b2ff;
     animation: pulse 2s ease-in-out infinite;
 }
 
@@ -160,7 +160,7 @@ a:hover {
     width: 100%;
     height: 100%;
     background: 
-        radial-gradient(circle at 20% 80%, rgba(77, 124, 102, 0.05) 0%, transparent 50%),
+        radial-gradient(circle at 20% 80%, rgba(92, 236, 224, 0.05) 0%, transparent 50%),
         radial-gradient(circle at 80% 20%, rgba(212, 165, 116, 0.08) 0%, transparent 50%);
     pointer-events: none;
 }
@@ -185,10 +185,9 @@ a:hover {
 .hero-badge {
     display: inline-block;
     padding: 0.7rem 1.8rem;
-    background: rgba(255, 255, 255, 0.9);
+    background: #66b2ff;;
     border: 2px solid var(--primary-medium);
     border-radius: 50px;
-    color: var(--primary-dark);
     font-family: var(--font-body);
     font-size: 1.1rem;
     font-weight: 600;
@@ -232,16 +231,16 @@ a:hover {
 }
 
 .btn-primary {
-    background: linear-gradient(135deg, var(--accent-gold), var(--accent-warm));
+    background: linear-gradient(135deg, #66b2ff, var(--accent-warm));
     border: none;
     padding: 1rem 2.5rem;
     font-family: var(--font-body);
     font-size: 1.1rem;
     font-weight: 600;
     border-radius: 50px;
-    box-shadow: 0 8px 25px rgba(212, 165, 116, 0.4);
+    box-shadow: 0 8px 25px #66b2ff;
     transition: var(--transition);
-    color: white !important;
+    color: #66b2ff !important;
     text-decoration: none !important;
 }
 
@@ -249,13 +248,12 @@ a:hover {
 .btn-primary:visited,
 .btn-primary:hover,
 .btn-primary:active {
-    color: white !important;
+    color: rgb(14, 1, 1) !important;
     text-decoration: none !important;
 }
 
 .btn-primary:hover {
     transform: translateY(-3px);
-    box-shadow: 0 12px 35px rgba(212, 165, 116, 0.5);
     background: linear-gradient(135deg, var(--accent-warm), var(--accent-gold));
 }
 
